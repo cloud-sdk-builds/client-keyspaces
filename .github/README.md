@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-keyspaces`](https://www.npmjs.com/package/@aws-sdk/client-keyspaces/v/3.490.0).
+[`@aws-sdk/client-keyspaces`](https://www.npmjs.com/package/@aws-sdk/client-keyspaces/v/3.494.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-keyspaces@3.490.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-keyspaces@3.494.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-xS4PGEStXU0hGGpE9qIY0WiRGClaGHFrQFNPr8dUj9Hb+O9ik+7iAmwg4gIDG9cB
+sha384-g1TgIv9lTaYpiWf/MiuUEK74iFwGAioFl4PiSR8kLcuHxe1J6qEklroeje0FQPLn
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-keyspaces": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-keyspaces@3.490.0/index.min.mjs"
+            "@aws-sdk/client-keyspaces": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-keyspaces@3.494.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-keyspaces@3.490.0/index.min.mjs": "sha384-xS4PGEStXU0hGGpE9qIY0WiRGClaGHFrQFNPr8dUj9Hb+O9ik+7iAmwg4gIDG9cB"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-keyspaces@3.494.0/index.min.mjs": "sha384-g1TgIv9lTaYpiWf/MiuUEK74iFwGAioFl4PiSR8kLcuHxe1J6qEklroeje0FQPLn"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-keyspaces": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-keyspaces@3.490.0/index.min.mjs"
+                        "@aws-sdk/client-keyspaces": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-keyspaces@3.494.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-keyspaces@3.490.0/index.min.mjs": "sha384-xS4PGEStXU0hGGpE9qIY0WiRGClaGHFrQFNPr8dUj9Hb+O9ik+7iAmwg4gIDG9cB"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-keyspaces@3.494.0/index.min.mjs": "sha384-g1TgIv9lTaYpiWf/MiuUEK74iFwGAioFl4PiSR8kLcuHxe1J6qEklroeje0FQPLn"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.490.0`)
+* Always pin to a specific version (`@3.494.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-keyspaces/blob/refs/tags/3.490.0/LICENSE
+https://github.com/cloud-sdk-builds/client-keyspaces/blob/refs/tags/3.494.0/LICENSE
 ```
 
 ---
